@@ -11,7 +11,7 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
-        rel="stylesheet" type="text/css" />
+          rel="stylesheet" type="text/css" />
     <!-- SimpleLightbox plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
 
@@ -19,158 +19,286 @@
 </head>
 
 <body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top">Homework 4</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top">Homework 4</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#part1">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#design">design</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#privacy">Privacy</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#pen-tester">Pen-tester</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#part2">Data sale</a></li>
- 
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#part1">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#design">Design</a></li>
+                <li class="nav-item"><a class="nav-link" href="#privacy">Privacy</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pen-tester">Pen-tester</a></li>
+                <li class="nav-item"><a class="nav-link" href="#part2">Data sale</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container px-4 px-lg-5 h-100">
+        <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-8 align-self-end">
+                <h1 class="text-white font-weight-bold">Drive Sharing Application <br> Homework 4</h1>
+                <hr class="divider" />
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <p class="text-white-75 mb-5">Computer Security</p>
+                <p class="text-white-75 mb-5">Daniel Silva (00201725) <br> Pamela Pupiales (00213871)<br>
+                    Nicolás Romero (00212949) <br> James León () <br> Máximo Pinta(00211312)</p>
+
+            </div>
+        </div>
+    </div>
+</header>
+<!-- part1-->
+<section class="page-section bg-primary" id="part1">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">Part 1</h2>
+                <hr class="divider divider-light" />
+                <p class="text-white mt-0">1. Design the system components of a drive sharing application (ex: Uber, Lyft).
+                    Specify what elements are necessary for this application to work.
+                    Your design must include a block diagram of each of the components to have the application needs to operate. </p>
+                <br>
+                <img src="./img/design2.png" style="align-content: center; width: 150%; margin-left:-170px;" alt="Design"><br><br>
+                <a class="btn btn-light btn-xl" href="#design">Continue</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- design-->
+<section class="page-section bg-primary" id="design">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">Design</h2>
+                <hr class="divider divider-light" />
+                <p class="text-white mt-0">In your design, you must provide a list of the data that you need to collect for the operation of the application.
+                    For each, provide a description of why you need this data.
+                    Examples:
+                </p>
+
+                <br>
+                <ul class="text-white mt-0">
+                    <li class="fw-bold">Who are the users of your application? What kind of information do you need of each of them? </li>
+                    <p>The application is aimed at people with safe transportation needs, who have access to digital
+                        media and an internet connection. On the other hand, the application is also aimed at people
+                        with access to a means of transportation who are looking for flexible opportunities to generate
+                        income from their transportation service. </p>
+                    <li class="fw-bold">What data do you need to make the user experience better? Examples: better ride experience, shorter wait time, faster routes, etc</li>
+                    <p>Historical ride data as well as user behaviour data could be of great use to predict, based on
+                        time of day and location, where a user might be headed. This could enhance the user experience
+                        by suggesting the more likely destinations a rider might be in need of.</p>
+                    <br>
+                    <p>Demand heat maps would greatly benefit the drivers by providing an overlook of places that have a
+                        high demand of rides based on time of the day. This would allow for drivers to supply said
+                        demand properly rather than staying on an area of relatively low activity. Likewise, earnings
+                        data could provide drivers with an accurate summary of their earnings based on location, time,
+                        etc., allowing them to plan their day strategically.</p>
+                    <br>
+                    <p>Finally, real-time traffic data, and route optimization data would allow for a better
+                        optimization of the ride, meaning shorter wait times, less time in traffic, and reducing time
+                        costs which is beneficial to both the rider and the driver</p>
+                    <li class="fw-bold">What kind of data do you need to collect to measure the performance and efficiency of the application?</li>
+                    <p>Measuring performance and efficiency could be done by observing some key indicators. It's
+                        important to have a responsive applications, users would stop using it if it had long load times
+                        or if it crashed often. Travel and wait time as well as distance traveled as an indicator of
+                        route selection algorithms is valuable as well.</p>
+                    <br>
+                    <p>Tracking of cancellation reasons could be a key indicator of why people are choosing to not use
+                        the service and might uncover potential areas of improvement. Which coupled with usage
+                        frequency, retention rates, and peak usage times could help improve user engagement metrics.</p>
+                    <li class="fw-bold">What about payment and tipping?</li>
+                    <p>Handling of payment, be it billing or tipping, requires the implementation of secure payment
+                        services. Strong security measures are usually bundled within the chosen services and are
+                        crucial when keeping financial information safe. This information tends to be credit card
+                        details, billing addresses, trip and tip information such as cost, fees, and any extra charges.
+                    </p>
                 </ul>
+                <a class="btn btn-light btn-xl" href="#privacy">Continue</a>
             </div>
         </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container px-4 px-lg-5 h-100">
-            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                <div class="col-lg-8 align-self-end">
-                    <h1 class="text-white font-weight-bold">Drive Sharing Application <br> Homework 4</h1>
-                    <hr class="divider" />
-                </div>
-                <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 mb-5">Computer Security</p>
-                    <p class="text-white-75 mb-5">Daniel Silva (00201725) <br> Pamela Pupiales (00213871)<br>
-                        Nicolás Romero (00212949) <br> James León () <br> Máximo Pinta()</p> 
-                    
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- part1-->
-    <section class="page-section bg-primary" id="part1">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">Part 1</h2>
-                    <hr class="divider divider-light" />
-                    <p class="text-white mt-0">1. Design the system components of a drive sharing application (ex: Uber, Lyft). 
-                        Specify what elements are necessary for this application to work. 
-                        Your design must include a block diagram of each of the components to have the application needs to operate. </p>
+    </div>
+</section>
+
+<!--privacy design-->
+<section class="page-section " id="privacy">
+    <div class="container px-4 px-lg-5 ">
+        <h2 class="text-center mt-0">Privacy Design</h2>
+        <hr class="divider" />
+        <p class="text-muted mb-4">Include a privacy design for the application.</p>
+        <ul>
+            <li class="fw-bold">For all the data that is being collected, what can be seen and by whom?</li>
+            <table>
+                <thead>
+                <tr>
+                    <th>Type of user</th>
+                    <th>Visible Data</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Passengers</td>
+                    <td>
+                        <ul>
+                            <li>Own profile and preferences.</li>
+                            <li>Personal travel history.</li>
+                            <li>Grades given.</li>
+                            <li>Basic information about the driver assigned to the current trip: name, photo and qualifications.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Drivers</td>
+                    <td>
+                        <ul>
+                            <li>Own profile and statistics.</li>
+                            <li>History of trips made.</li>
+                            <li>Grades received.</li>
+                            <li>Current passenger data: location, name, preferences.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Administrators</td>
+                    <td>
+                        <ul>
+                            <li>Complete profiles of users and drivers.</li>
+                            <li>Financial information.</li>
+                            <li>Performance and efficiency reports.</li>
+                            <li>Operational data to manage the platform.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Software developers</td>
+                    <td>
+                        <ul>
+                            <li>Technical data, error logs, performance reports.</li>
+                            <li>Data related to the technical infrastructure and maintenance of the application.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Data Analysts</td>
+                    <td>
+                        <ul>
+                            <li>Detailed reporting and analysis on application performance and efficiency.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Executives</td>
+                    <td>
+                        <ul>
+                            <li>Financial analysis for decision-making.</li>
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <li class="fw-bold">What information should have restricted access?</li>
+            <p>Passenger information such as a contact number and starting and destination addresses should be available
+                only to the rider, and the driver only when there is an ongoing trip. Other types of personal data such
+                as login credentials, feedback, and payment information should only be available to the user who owns
+                them.</p>
+            <br>
+            <p>Likewise, driver sensitive data like driver's license and earnings should only be freely available to the
+                driver they belong to. Similarly, pickup location and destination of a user should only be seen by the
+                driver when there's an ongoing trip.</p>
+            <br>
+            <p>Some of this data, like route and time taken, cost, and payment method, only partially, should only be
+                seen by support personnel when requested by a driver or rider. For example, when dealing with a support
+                ticket submitted by a user.</p>
+            <li class="fw-bold">What information should not be seen by anyone?</li>
+            <p>Financial information is a critical point here, full details of credit cards and/or accounts should only
+                be seen by secure transaction systems. Likewise, login credentials for any user should only be handled
+                through automated systems and never accessible to any type of user. Full location and communication
+                history should be only available to riders and drivers, protected with end-to-end encryption.</p>
+        </ul>
+        <a class="btn btn-light btn-xl" href="#pen-tester">Continue</a>
+    </div>
+</section>
+
+<!-- pen-tester-->
+<section class="page-section bg-primary" id="pen-tester">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">Pen-tester</h2>
+                <hr class="divider divider-light" />
+                <p class="text-white mt-0">Assume you are a pen-tester and you are in charge of testing the privacy design proposed.
+                </p>
+                <br>
+                <ul class="text-white mt-0">
+                    <li class="fw-bold">What are the risks if you are able to get access to the app as a user, as an admin, and as developer?</li>
+                    <p>As a user, frequently visited addresses, payment information, and contact information.</p>
                     <br>
-                    <img src="./img/design2.png" style="align-content: center; width: 150%; margin-left:-170px;" alt="Design"><br><br>
-                    <a class="btn btn-light btn-xl" href="#design">Continue</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- design-->
-    <section class="page-section bg-primary" id="design">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">Design</h2>
-                    <hr class="divider divider-light" />
-                    <p class="text-white mt-0">In your design, you must provide a list of the data that you need to collect for the operation of the application. 
-                        For each, provide a description of why you need this data. 
-                        Examples: 
-                        </p>
+                    <p>As an admin, this could mean access to complete user profiles, financial information, permissions
+                        to change platform configurations, and disruption of service availability.</p>
                     <br>
-                    
-                        <br>
-                        <ul class="text-white mt-0">
-                            <li>Who are the users of your application? What kind of information do you need of each of them? </li>
-                            <p>The application is aimed at people with safe transportation needs, who have access to digital media and an internet connection. On the other hand, 
-                                the application is also aimed at people with access to a means of transportation who are looking for flexible opportunities to generate income from their transportation service. </p>
-                            <li>what data do you need to make the user experience better? Examples: better ride experience, shorter wait time, faster routes, etc</li>
-                            <li>what kind of data do you need to collect to measure the performance and efficiency of the application?</li>
-                            <li>what about payment and tipping?
-                            </li>
-                          </ul>  
-                        <h1>COMPLETAR</h1>
-                    <a class="btn btn-light btn-xl" href="#privacy">Continue</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-      <!--privacy design-->
-    <section class="page-section " id="privacy">
-        <div class="container px-4 px-lg-5 ">
-            <h2 class="text-center mt-0">Privacy Design</h2>
-            <hr class="divider" />
-            <p class="text-muted mb-4">Include a privacy design for the application.</p>
-            <ul>
-                <li>For all the data that is being collected, what can be seen and by whom?</li>
-                <li>What information should have restricted access?</li>
-                <li>what information should not be seen by anyone?</li>
-              </ul>  
-              <h1>COMPLETAR</h1>
-         <a class="btn btn-light btn-xl" href="#pen-tester">Continue</a>
-        </div>
-    </section>
-
-     <!-- pen-tester-->
-     <section class="page-section bg-primary" id="pen-tester">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">Pen-tester</h2>
-                    <hr class="divider divider-light" />
-                    <p class="text-white mt-0">Assume you are a pen-tester and you are in charge of testing the privacy design proposed.
-                        </p>
+                    <p>As a developer, this would enable the tester to access API keys and server credentials,
+                        potentially granting the ability to introduce vulnerabilities or backdoors.</p>
+                    <li class="fw-bold">In any of these cases, what are the ways that an attacker can provoke a privacy breach? What kind of attacks can be used to accomplish this.</li>
+                    <p>To users, the attacker can perform phishing attacks with malicious websites, testing with
+                        databases of stolen credentials, or attempting to steal session tokens.</p>
                     <br>
-                    
-                        <br>
-                        <ul class="text-white mt-0">
-                            <li>What are the risks if you are able to get access to the app as a user, as an admin, and as developer?</li>
-                           
-                            <li>In any of these cases, what are the ways that an attacker can provoke a privacy breach? What kind of attacks can be used to accomplish this.</li>
-                            <li>Write an ethical analysis of the consequences of a privacy breach of the app for each of the cases above.</li>
-                            
-                          </ul>  
-                        <h1>COMPLETAR</h1>
-                    <a class="btn btn-light btn-xl" href="#part2">Continue</a>
-                </div>
+                    <p>To admins, it's the same case as users, but adding social engineering to obtain administrator's
+                        credentials, or bribing one into misusing their access.</p>
+                    <br>
+                    <p>To developers, the attacker could try to exploit insecure developer tools or endpoints, such as
+                        code injection, or looking for misconfigured access controls and permissions.</p>
+                    <li class="fw-bold">Write an ethical analysis of the consequences of a privacy breach of the app for each of the cases above.</li>
+                    <p>To users, this could represent a threat to personal safety if their trip data is leaked.
+                        Likewise, it could result in identity theft and/or financial loss for the affected user.</p>
+                    <br>
+                    <p>To admins, a breach could represent widespread identity theft and fraud. Which in turn would
+                        cause the people in charge of the app to face regulatory fines and legal action.</p>
+                    <br>
+                    <p>To developers, the breach would see the possibility of systematic failure and widespread
+                        unauthorized data access. This could be used to launch further attacks on users, cascading
+                        into the issues described for users and admins. A vulnerability of this magnitude would have
+                        severe legal and financial repercussions.</p>
+                </ul>
+                <a class="btn btn-light btn-xl" href="#part2">Continue</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
-    <!--part2-->
-    <section class="page-section " id="part2">
-        <div class="container px-4 px-lg-5 ">
-            <h2 class="text-center mt-0">Part 2</h2>
-            <hr class="divider" />
-            <p class="text-muted mb-4">2. Your drive sharing company has decided to sell users data to advertisers.</p>
-            <ul>
-                <li>You have been asked to loosen up your design so that data can be sold to advertisers. Additionally, 
-                    your manager has asked you to provide a list of data that can be sold, 
-                    so the advertisers can maximize the accuracy of the ads.</li>
-                <li>Provide the details of the new privacy design following the same principles you used for the original design.</li>
-                <li>Repeat the pen-tester exercise done for the original design.</li>
-                <li>Write an ethical analysis of the consequences of selling this data to adverstisers.</li>
-              </ul>  
-              <h1>COMPLETAR</h1>
-                    <a class="btn btn-light btn-xl" href="#">Return Main Page</a>
-        </div>
-    </section>
+<!--part2-->
+<section class="page-section " id="part2">
+    <div class="container px-4 px-lg-5 ">
+        <h2 class="text-center mt-0">Part 2</h2>
+        <hr class="divider" />
+        <p class="text-muted mb-4">2. Your drive sharing company has decided to sell users data to advertisers.</p>
+        <ul>
+            <li>You have been asked to loosen up your design so that data can be sold to advertisers. Additionally,
+                your manager has asked you to provide a list of data that can be sold,
+                so the advertisers can maximize the accuracy of the ads.</li>
+            <li>Provide the details of the new privacy design following the same principles you used for the original design.</li>
+            <li>Repeat the pen-tester exercise done for the original design.</li>
+            <li>Write an ethical analysis of the consequences of selling this data to adverstisers.</li>
+        </ul>
+        <h1>COMPLETAR</h1>
+        <a class="btn btn-light btn-xl" href="#">Return Main Page</a>
+    </div>
+</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
 
-    <script src="script.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>

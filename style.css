@@ -310,7 +310,7 @@ svg {
 }
 
 table {
-  caption-side: bottom;
+  width: 100%;
   border-collapse: collapse;
 }
 
@@ -322,8 +322,7 @@ caption {
 }
 
 th {
-  text-align: inherit;
-  text-align: -webkit-match-parent;
+  background-color: #ddd;
 }
 
 thead,
@@ -332,9 +331,9 @@ tfoot,
 tr,
 td,
 th {
-  border-color: inherit;
-  border-style: solid;
-  border-width: 0;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
 }
 
 label {
