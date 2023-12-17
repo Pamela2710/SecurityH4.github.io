@@ -273,23 +273,117 @@
     </div>
 </section>
 
-
 <!--part2-->
-<section class="page-section " id="part2">
-    <div class="container px-4 px-lg-5 ">
-        <h2 class="text-center mt-0">Part 2</h2>
+<section class="page-section" id="part2">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0">Part 2 - Data Selling to Advertisers</h2>
         <hr class="divider" />
-        <p class="text-muted mb-4">2. Your drive sharing company has decided to sell users data to advertisers.</p>
-        <ul>
-            <li>You have been asked to loosen up your design so that data can be sold to advertisers. Additionally,
-                your manager has asked you to provide a list of data that can be sold,
-                so the advertisers can maximize the accuracy of the ads.</li>
-            <li>Provide the details of the new privacy design following the same principles you used for the original design.</li>
-            <li>Repeat the pen-tester exercise done for the original design.</li>
-            <li>Write an ethical analysis of the consequences of selling this data to adverstisers.</li>
-        </ul>
-        <h1>COMPLETAR</h1>
-        <a class="btn btn-light btn-xl" href="#">Return Main Page</a>
+        <p class="text-muted mb-4">Your drive-sharing company has made the decision to sell user data to advertisers. The following outlines the revisions made to the privacy design to facilitate this new business direction while maintaining user privacy and trust.</p>
+        
+        <!-- Revised Privacy Design for Data Selling -->
+        <div class="privacy-design">
+            <h3 class="text-center mt-0">Revised Privacy Design</h3>
+            <p class="text-muted mb-4">Adjustments made to the privacy design to facilitate data selling to advertisers, while upholding user privacy and trust.</p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data Anonymization and Aggregation</td>
+                        <td>Personal identifiers are removed, and data is combined to ensure that no individual can be singled out, thus preserving user anonymity.</td>
+                    </tr>
+                    <tr>
+                        <td>User Consent</td>
+                        <td>A system where users are informed about the data collection in a clear language, outlining the purpose behind the data sharing, and are required to actively agree before any data is shared.</td>
+                    </tr>
+                    <tr>
+                        <td>Data Types to be Sold</td>
+                        <td>General Demographics include age, gender, and general area without specific geolocation. Ride Preferences cover common destinations and times but not specific addresses. Engagement Metrics focus on app interaction patterns without tracking individual behavior.</td>
+                    </tr>
+                    <tr>
+                        <td>Data Access Levels for Advertisers</td>
+                        <td>Advertisers receive access to different levels of data based on subscription tiers, ensuring that more sensitive data requires higher levels of partnership and trust.</td>
+                    </tr>
+                    <tr>
+                        <td>Data Security</td>
+                        <td>State-of-the-art encryption for data at rest and in transit, with regular reviews and updates to security protocols to prevent unauthorized data interception.</td>
+                    </tr>
+                    <tr>
+                        <td>Data Auditing</td>
+                        <td>Comprehensive audits are conducted at regular intervals to ensure that data sharing adheres to agreed-upon policies and legal standards, with a system in place for corrective actions if discrepancies are found.</td>
+                    </tr>
+                    <tr>
+                        <td>User Control and Transparency</td>
+                        <td>Users have access to a dashboard where they can view what data is shared and can revoke consent at any time, ensuring control over their personal information.</td>
+                    </tr>
+                    <tr>
+                        <td>Benefit Sharing</td>
+                        <td>Introduction of incentives for users who agree to data sharing, such as ride discounts or loyalty points, as a way to share the benefits derived from their data.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pen-Testing Exercise for Revised Design -->
+        <div class="pen-testing">
+            <h3 class="text-center mt-0">Pen-Testing Exercise</h3>
+            <p class="text-muted mb-4">
+                To ensure the integrity and confidentiality of the user data being shared with advertisers, a comprehensive pen-testing exercise was conducted. This exercise aims to identify potential vulnerabilities within the new data-sharing framework and propose mitigation strategies.
+            </p>
+            <div class="pen-testing-details">
+                <h4 class="text-center mt-0">Objective</h4>
+                <p class="text-muted mb-4">
+                    The objective of the pen-testing exercise is to assess the security of the new data-sharing processes, evaluate the risks they might pose to user privacy, and determine the resilience of the system against attempts to de-anonymize the data.
+                </p>
+                <h4 class="text-center mt-0">Methodology</h4>
+                <p class="text-muted mb-4">
+                    The methodology included simulated attacks targeting the anonymization and aggregation processes, opt-in mechanisms, and the data management platform. Ethical hackers attempted to breach the simulated environment using a variety of techniques, including but not limited to:
+                    <ul>
+                        <li>Attempting to correlate anonymized data with external data sources to test the effectiveness of anonymization.</li>
+                        <li>Exploiting potential weaknesses in the opt-in mechanism that could lead to unauthorized sharing of data.</li>
+                        <li>Assessing the security measures of the data management platform for any misconfiguration or vulnerabilities that could be exploited to gain unauthorized access to sensitive data.</li>
+                    </ul>
+                </p>
+                <h4 class="text-center mt-0">Potential Attack Vectors</h4>
+                <p class="text-muted mb-4">
+                    Several potential attack vectors were identified during the pen-testing exercise, including:
+                    <ul>
+                        <li>Social engineering tactics designed to deceive users into granting unnecessary data access.</li>
+                        <li>Exploiting system vulnerabilities to access data beyond the advertiser's tiered permissions.</li>
+                        <li>Attempted injection attacks on the data management platform that could lead to unauthorized data modification or extraction.</li>
+                    </ul>
+                    After identifying these vectors, the team worked on reinforcing the security measures and developing strategies to mitigate these risks.
+                </p>
+                <h4 class="text-center mt-0">Reporting and Mitigation</h4>
+                <p class="text-muted mb-4">
+                    The findings from the pen-testing exercise were thoroughly documented, detailing each vulnerability and the potential impact on user privacy. Recommendations were made to strengthen data anonymization methods, enhance the security protocols of the data sharing process, and reinforce the opt-in mechanism. Continuous monitoring and regular re-assessment were also proposed to ensure ongoing data protection.
+                </p>
+            </div>
+        </div>
+
+        <!-- Ethical Analysis of Selling Data -->
+        <div class="ethical-analysis">
+            <h3 class="text-center mt-0">Ethical Analysis</h3>
+            <p class="text-muted mb-4">A critical examination of the implications of selling user data to advertisers on users and the company.</p>
+            <p class="text-muted mb-4">
+                Selling user data raises profound ethical questions, particularly concerning user privacy and the potential misuse of personal information. When users sign up for a drive-sharing service, they entrust the company with sensitive data under the assumption that it will be used solely to improve the service. The decision to monetize this data by selling it to advertisers can be seen as a breach of this trust, especially if done without clear and explicit user consent.
+            </p>
+            <p class="text-muted mb-4">
+                Ethical considerations must be at the forefront of the decision to sell data. Transparency with users about what data is being sold, how it is anonymized, and who it is sold to is crucial. Users should have the ability to opt-out of data selling without any penalties or degradation of service quality. Furthermore, the company must consider the broader implications of such a practice, including the possibility of data being used to discriminate or unduly influence users.
+            </p>
+            <p class="text-muted mb-4">
+                Legally, the company is bound to adhere to data protection laws such as GDPR, which mandates strict guidelines on user consent and data handling. Ethically, the company must go beyond mere legal compliance to uphold a standard of integrity and respect for user autonomy. The potential for reputational damage is significant if users feel their data is being mishandled. In the worst-case scenario, mishandled data could lead to identity theft, financial loss, and personal harm to the users, with corresponding legal repercussions for the company.
+            </p>
+            <p class="text-muted mb-4">
+                Therefore, the ethical sale of data requires a balance between commercial interests and the protection of user rights. This balance can be achieved by implementing robust privacy protections, maintaining high standards of data security, and fostering a culture of respect for user privacy within the company. It is not only about protecting the company from legal consequences but also about preserving the trust and loyalty of its user base.
+            </p>
+        </div>
+
+        <a class="btn btn-light btn-xl" href="#main-page">Return to Main Page</a>
     </div>
 </section>
 
